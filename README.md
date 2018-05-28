@@ -2,9 +2,9 @@
 
 [中文](README-zh.md)
 
-This is docker config to startup [viabtc_exchange_server](https://github.com/viabtc/viabtc_exchange_server) simply.
+This is docker config to startup [viabtc_exchange_server](https://github.com/viabtc/viabtc_exchange_server) easily.
 
-This repo do this things automatic:
+This repo do this things automaticly:
 
 * Startup a ubuntu docker container
 * Prepare requirements environment
@@ -37,7 +37,7 @@ sudo apt-get install -y liblz4-dev
 docker-compose up
 ```
 
-Just wait it startup and then test use curl
+Just wait for startup and then test using curl
 
 ```bash
 curl  http://127.0.0.1:18080/ -d '{"method": "market.list", "params": [], "id": 1516681174}'
