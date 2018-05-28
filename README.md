@@ -93,3 +93,4 @@ All is done, just play it!
 * https://github.com/s7anley/redis-sentinel-docker
 * https://github.com/vishnubob/wait-for-it
 * https://github.com/yingl/viabtc_exchange_server/blob/master/README.md
+* https://github.com/gyk001/viabtc_exchange_server_docker
