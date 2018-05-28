@@ -27,7 +27,7 @@ This repo do this things automatic:
 
 Open a terminal(linux/mac) or cmd(windows)
 
-Works fine with Docker 18.03.1-ce and docker-compose 1.21.2
+Works fine with Docker 18.03.1-ce, docker-compose 1.21.2 and Ubuntu 16.04 Server LTS
 
 ```bash
 git clone https://github.com/barbariska108/viabtc_exchange_server_docker-fixed
