@@ -15,13 +15,13 @@ services:
       - "18081:8081"
       - "18091:8091"
     depends_on:
-      - mysql
+      - postgres
       - kafka
       - redis_sentinel
       - redis_slave
       - redis_master
     links:
-      - mysql:db
+      - postgres:db
       - kafka:mq
       - redis_sentinel
       - redis_slave
@@ -53,8 +53,8 @@ services:
     ports:
       - "26379:26379"
 
-  mysql:
-    container_name: btc-mysql
+  postgres:
+    container_name: btc-postgres
     build: ./db/
     ports:
       - "13306:3306"

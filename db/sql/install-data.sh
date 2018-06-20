@@ -1,8 +1,8 @@
 #!/bin/bash
-MYSQL_ROOT_PASSWORD="root"
+PSQL_ROOT_PASSWORD="root"
 
 #!/bin/bash
-mysql -uroot -p$MYSQL_ROOT_PASSWORD <<EOF
+psql -uroot -p$PSQL_ROOT_PASSWORD <<EOF
 source $WORK_PATH/$FILE_0;
 source $WORK_PATH/$FILE_1;
 EOF

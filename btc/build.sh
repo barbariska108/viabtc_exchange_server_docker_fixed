@@ -1,8 +1,8 @@
 #! /bin/bash
 
 # 读取配置
-cflags=$(/usr/bin/mysql_config --cflags)
-libs=$(/usr/bin/mysql_config --libs)
+cflags=$(/usr/bin/postgres_config --cflags)
+libs=$(/usr/bin/postgres_config --libs)
 # 替换/为转义,sed要用
 cflags=${cflags//\//\\\/}
 libs=${libs//\//\\\/}

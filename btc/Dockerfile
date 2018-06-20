@@ -7,7 +7,7 @@ RUN sed -i "s/archive.ubuntu./mirrors.aliyun./g" /etc/apt/sources.list
 RUN apt-get update &&\
     apt-get install -y wget vim psmisc &&\
 	# 依赖包
-	apt-get -y install libev-dev libssl-dev libmpdec-dev libjansson-dev   libmysqlclient-dev &&\
+	apt-get -y install libev-dev libssl-dev libmpdec-dev libjansson-dev   libpq-dev &&\
  	# 安装构建工具
 	apt-get install -y  build-essential autoconf libtool python &&\
 	# 清理
@@ -41,7 +41,7 @@ RUN wget https://codeload.github.com/curl/curl/tar.gz/curl-7_57_0 -O /src/curl-7
 	make &&\
 	make install
 
-RUN  apt-get update &&\ 
+RUN  apt-get update &&\
 	apt-get -y install liblz4-dev
 
 ADD build.sh /src/build.sh
