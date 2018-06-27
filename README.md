@@ -47,6 +47,7 @@ All is done, just play it!
 
 
 # Donation
+BTC - 15qntcWtKASNoByYLakAFEQGFkTCBUJFA7
 
 <div id="donate_module">
 	<!-- btn_donate & tips -->
