@@ -45,27 +45,7 @@
             "prec_save": 12,
             "prec_show": 8
         }, {
-            "name": "LTC",
-            "prec_save": 12,
-            "prec_show": 8
-        }, {
             "name": "ETH",
-            "prec_save": 12,
-            "prec_show": 8
-        }, {
-            "name": "ETC",
-            "prec_save": 12,
-            "prec_show": 8
-        }, {
-            "name": "ZEC",
-            "prec_save": 12,
-            "prec_show": 8
-        }, {
-            "name": "XMR",
-            "prec_save": 12,
-            "prec_show": 8
-        }, {
-            "name": "DSH",
             "prec_save": 12,
             "prec_show": 8
         }
@@ -75,17 +55,6 @@
             "name": "BTCUSDT",
             "stock": {
                 "name": "BTC",
-                "prec": 8
-            },
-            "money": {
-                "name": "USDT",
-                "prec": 8
-            },
-            "min_amount": "0.001"
-        }, {
-            "name": "LTCUSDT",
-            "stock": {
-                "name": "LTC",
                 "prec": 8
             },
             "money": {
@@ -105,46 +74,13 @@
             },
             "min_amount": "0.001"
         }, {
-            "name": "ETCUSDT",
+            "name": "BTCETH",
             "stock": {
-                "name": "ETC",
+                "name": "BTC",
                 "prec": 8
             },
             "money": {
-                "name": "USDT",
-                "prec": 8
-            },
-            "min_amount": "0.001"
-        }, {
-            "name": "ZECUSDT",
-            "stock": {
-                "name": "ZEC",
-                "prec": 8
-            },
-            "money": {
-                "name": "USDT",
-                "prec": 8
-            },
-            "min_amount": "0.001"
-        }, {
-            "name": "XMRUSDT",
-            "stock": {
-                "name": "XMR",
-                "prec": 8
-            },
-            "money": {
-                "name": "USDT",
-                "prec": 8
-            },
-            "min_amount": "0.001"
-        }, {
-            "name": "DSHUSDT",
-            "stock": {
-                "name": "DSH",
-                "prec": 8
-            },
-            "money": {
-                "name": "USDT",
+                "name": "ETH",
                 "prec": 8
             },
             "min_amount": "0.001"
